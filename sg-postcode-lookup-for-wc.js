@@ -107,6 +107,8 @@
           } else {
             jQuery('#' + selector_form_row_id).show();
           }
+      } else {
+        do_address_change( selector_form_row_id, '||||' );
       }
   }
 

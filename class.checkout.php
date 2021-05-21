@@ -208,7 +208,7 @@
 			ob_start();
 			?>
 			<script>
-				document.write( '<p class="form-row <?php echo $class; ?>" id="<?php echo $id; ?>" data-priority="<?php echo esc_attr( $priority ); ?>"><br>' );
+				document.write( '<p class="form-row <?php echo $class; ?>" id="<?php echo $id; ?>" data-priority="<?php echo esc_attr( $priority ); ?>"><br class="hide-on-mobile hide-on-tablet">' );
 				document.write( '<button type="button" class="button alt sg-postcode-lookup-button" id="<?php echo $id;?>_button"><?php echo esc_html( $args['label'] ); ?></button></p>' );
 			</script>
 			<?php
